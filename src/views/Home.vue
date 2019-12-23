@@ -2,7 +2,7 @@
 	<div class="home">
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container-fluid">
-				<div class="row">
+				<div class="row align-items-center">
 					<div class="col-12 col-md-6 order-1 order-md-2">
 						<carousel />
 					</div>
