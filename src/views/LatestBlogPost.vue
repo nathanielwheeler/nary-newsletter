@@ -1,13 +1,17 @@
 <template>
-	<div class="latest-blog-post"></div>
+	<div class="latest-blog-post">
+		<post />
+	</div>
 </template>
 
 
 <script>
+import Post from "../components/Post.vue";
+
 export default {
 	name: "latest-blog-post",
 
-	components: {},
+	components: { Post },
 	props: {},
 
 	data() {

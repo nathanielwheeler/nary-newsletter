@@ -1,13 +1,17 @@
 <template>
-	<div class="blog-post"></div>
+	<div class="blog-post">
+		<post />
+	</div>
 </template>
 
 
 <script>
+import Post from "../components/Post.vue";
+
 export default {
 	name: "blog-post",
 
-	components: {},
+	components: { Post },
 	props: {},
 
 	data() {

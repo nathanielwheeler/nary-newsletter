@@ -10,7 +10,7 @@
 					<p
 						class="lead"
 					>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ut voluptatibus aliquam accusamus minima deleniti, sed error a velit vero doloribus quis laudantium recusandae odit voluptatum nulla natus facere? Natus.</p>
-					<button class="btn btn-primary">Read more...</button>
+					<router-link class="btn btn-primary" to="/blog/latest">Read more...</router-link>
 				</div>
 			</div>
 		</div>
