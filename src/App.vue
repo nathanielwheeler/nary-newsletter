@@ -33,6 +33,23 @@ export default {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-align: center;
-	color: #2c3e50;
+}
+
+/* custom button styling */
+.btn-primary {
+	/* background: #746eb1; */
+	background: #b16e6e;
+	border: 0;
+}
+.btn-primary:hover {
+	/* background: #5b54af; */
+	background: #af5454;
+}
+.btn-secondary {
+	background: #838c96;
+	border: 0;
+}
+.btn-secondary:hover {
+	background: #6a7179;
 }
 </style>

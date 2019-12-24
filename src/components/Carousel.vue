@@ -1,6 +1,6 @@
 <template>
 	<div class="carousel-view">
-		<transition-group name="carousel" class="carousel" tag="div">
+		<transition-group name="carousel" class="my-carousel" tag="div">
 			<div v-for="(slide, index) in slides" class="slide" :key="slide.id">
 				<img class="slide__image" :src="slide.imgLink" />
 			</div>
@@ -67,12 +67,12 @@ html {
 	margin: 0;
 }
 .carousel-view {
-	height: 60vh;
+	max-height: 75vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-.carousel {
+.my-carousel {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -105,6 +105,7 @@ html {
 }
 .carousel-controls {
 	margin: 0;
+	margin-top: -40px;
 }
 .btn {
 	margin: 0.5em;

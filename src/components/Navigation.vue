@@ -41,11 +41,11 @@ export default {
 
 .navigation a {
 	font-weight: bold;
-	color: #2c3e50;
+	color: #5e2fa1;
 	margin-right: 10px;
 }
 
 .navigation a.router-link-exact-active {
-	color: #42b983;
+	color: #381d5f;
 }
 </style>
