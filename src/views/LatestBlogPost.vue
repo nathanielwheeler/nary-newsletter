@@ -12,13 +12,21 @@ export default {
 	name: "latest-blog-post",
 
 	components: { Post },
-	props: {},
+	props: [],
 
 	data() {
 		return {};
 	},
-	computed: {},
-	methods: {}
+	computed: {
+		latestPost() {
+			return this.$store.state.blog.latest;
+		}
+	},
+	methods: {},
+
+	mounted() {
+		this.$store.dispatch("getLatestPost", keepId);
+	}
 };
 </script>
 
