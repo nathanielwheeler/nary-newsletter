@@ -25,7 +25,7 @@ export default {
 	methods: {},
 
 	mounted() {
-		this.$store.dispatch("getLatestPost", keepId);
+		this.$store.dispatch("getLatestPost");
 	}
 };
 </script>

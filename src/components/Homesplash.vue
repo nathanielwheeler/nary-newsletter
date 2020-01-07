@@ -31,7 +31,11 @@ export default {
 		return {};
 	},
 	computed: {},
-	methods: {}
+	methods: {},
+
+	mounted() {
+		this.$store.dispatch("getLatestPost");
+	}
 };
 </script>
 
